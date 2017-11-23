@@ -1,0 +1,306 @@
+  /* best practices */ 
+
+ /* scale all objects within viewport */ 
+ img, embed, object, video {
+ 	max-width:100%;
+ }
+ 
+ /* Make tap-targets easy to hit for fingers */ 
+ nav a, button{
+ 	min-width: 48px;
+ 	min-height: 48px;
+ 	padding: 1.5em;
+ }
+
+/* Set body */ 
+	body{
+	    margin:0;
+	    padding:0;
+	    width:100%;
+	    height:100%;
+	    background-color: #DEDBDB;
+	    font-family: Century Gothic, sans-serif; 
+	    line-height: 1.2em;
+/* 	    border: 5px dashed blue;   */
+	}
+
+  	 /* is viewport set in each html? */ 
+
+	.wrapper{
+		margin-bottom:60px;
+		overflow-y: scroll;
+	}
+	
+	.page-header{
+		margin:15px;
+		padding:2vh;
+	  	position: relative;
+	  	height:15vh;
+	  	background-repeat: no-repeat;
+	 	background-size: 100% ;
+	 	background-color: #DEDBDB;
+	}
+	
+	.jumbotron-front {
+		height:30vh;
+		Width:100%;
+		position: relative;
+		margin-bottom:3vh;
+	}
+	
+	.button-front {
+	    background-color: white;
+	    border: none;
+	    color: black;
+	    padding: 10px 32px;
+	    text-align: center;
+	    font-size: 2h;
+	    width: 100%;
+	    position: absolute;
+	    top: 40%;
+	}
+	
+	.button:hover{
+	  background-color: #C0C8FF;
+	}
+	
+	.page-footer{
+		position: fixed;
+		left: 0px;
+		bottom:0px;
+		height:50px;	
+	 	width:100%;
+	  	background-color: white;
+	  	padding-left: 20px;
+	  	padding-right: 20px;
+	  	padding-top: 5px;
+	  	padding-bottom: 5px;
+	  	font-size:10px;  
+	}
+	
+	.contactinfo{
+		display: none;
+	}
+	
+	.navbar{
+		display: none;
+	}
+	
+	.dropdown{
+		margin-bottom:2vh;
+	}
+	
+	.dropdown-menu{
+		margin-left:15px;
+		width:92%;
+	}
+	
+	.meeneemgerechten {
+  		font-size:10px;  
+	}
+	
+	.jumbotron{
+		font-size:14px;  
+	}
+	
+	.menuwrapper{
+		widht:100%;
+	}
+	
+	.largeef{
+		position:relative;
+		display: none;
+	}		
+
+	#eindejaarsfolder{
+		width:65vw;
+	    height:70vh;
+	    padding-bottom:5vh;
+	}	
+	
+	#smalleindejaarsfolder{
+		width:100vw;
+	    height:100vh;
+	    padding-bottom:3vh;
+	}
+	
+	.modal-title{
+		font-size:16px;
+	}
+	
+	.eetfestijn{
+		margin-left:1vw;
+		width:80vw;
+	}
+	
+	.contacteetfestijn{
+		margin-top:10vh;
+	}
+	
+
+
+/* mediaquery > 310px*/ 
+@media screen and (min-width: 310px) {
+	.contactinfo{
+		display: block;
+	}
+
+}
+
+/* mediaquery > 375px*/ 
+@media screen and (min-width: 375px) {
+	.page-header{
+		background-size: auto 100% ;
+	}
+	.button-front {
+		top:40%;
+		padding: 20px 32px;
+	}
+}
+
+/* mediaquery > 440px < 767px*/ 
+@media screen and (min-width: 440px) and (max-width: 767px) {
+	.contactinfo{
+		display: inline;
+	}
+	.page-footer{
+		height:25px;
+	}
+
+	.jumbotron-front {
+		height:50vh;
+		position: relative;
+		margin-bottom:0vh;
+		margin-top:3vh;
+	}
+	
+	.jumbotronwrapper{
+		width: 50%;
+		height:100%;
+	}
+	
+	.dropdown-menu{
+		margin-left:15px;
+		width:96%;
+	}
+	.table{
+		width:49%;
+	}
+	
+	.contact{
+		width:49%;
+	}
+	
+	.traiteur{
+		width:49%;
+	}
+	
+	#myCarousel{
+	 	margin-top:3vh;
+	}
+	
+	.dessertbuffets{
+		 width:100%;
+	}
+	
+	#smalleindejaarsfolder{
+		width:100vw;
+	    height:140vh;
+	    padding-bottom:3vh;
+	}
+	
+	.modal-title{
+		font-size:20px;
+	}
+	
+	.page-header{
+		height:10vh;
+	}
+}
+
+/* mediaquery >600px*/ 
+@media screen and (min-width: 600px) and (max-width: 767px) {
+	#smalleindejaarsfolder{
+		width:100vw;
+	    height:200vh;
+	    padding-bottom:3vh;
+	}
+	
+	.modal-title{
+		font-size:24px;
+	}
+	
+	.page-header{
+		height:10vh;
+	}
+	
+}
+
+/* mediaquery >768px*/ 
+@media screen and (min-width: 768px) {
+	.contactinfo{
+		display: inline;
+	}
+	
+	.page-footer{
+		height:25px;
+	}
+
+	.jumbotron-front {
+		height:65vh;
+		position: relative;
+		margin-bottom:3vh;
+		margin-top:3vh;
+	}
+	
+	.button-front {
+		top:40%;
+		padding: 30px 32px;
+		font-size:26px;
+	}
+	
+	.navbar{
+		display: block;
+	}
+		
+	.dropdown{
+		display: none;
+	}		
+	
+	.table{
+		width:49%;
+		font-size:14px;  
+	}
+	
+	#myCarousel{
+	 	margin-top:3vh;
+	}
+	
+	.dessertbuffets{
+		 width:100%;
+	}
+	
+	#smalleindejaarsfolder{
+		display: none;
+	}
+	
+	.modal-title{
+		font-size:24px;
+	}
+	
+	.largeef{
+		display: block;
+		position:relative;
+	}		
+
+	#eindejaarsfolder{
+		width:100vw;
+	    height:90vh;
+	    padding-bottom:3vh;
+	}
+	
+	.page-header{
+		height:10vh;
+	}
+		
+}

@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-color: #DEDBDB;
+    font-family: Century Gothic, sans-serif;
+    
+}
+
+
+.page-header{
+	margin:15px;
+  	position: relative;
+  	height:90px;
+  	background-image: url('images/LogoLaborgata.png');
+  	background-repeat: no-repeat;
+ 	background-size: contain;
+ 	background-position: left;
+ 	background-color: #DEDBDB;
+}
+
+
+.jumbotron {
+	height:70vh;
+	position: relative;
+}
+
+.jumbotron-front {
+	height:70vh;
+	position: relative;
+}
+
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 20px 32px;
+    text-align: center;
+    font-size: 34px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+
+.button-front {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 20px 32px;
+    text-align: center;
+    font-size: 34px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+
+
+.button:hover{
+  background-color: #C0C8FF;
+}
+
+.page-footer{
+	position: fixed;
+	left: 0px;
+	bottom:0px;
+	height:30px;	
+ 	width:100%;
+  	background-color: white;
+  	padding-left: 20px;
+  	padding-right: 20px;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+}
+
+
+.carousel .item {
+    width:50vw;
+    height:50vh;
+    overflow: hidden;
+}
+
+.carousel-inner > .item > img {
+	 margin: 0 auto;
+}
+
+
+table  {
+  width: 100%;
+}
+
+table > tbody > tr > td:last-child {
+	align: right;
+}	
+
+#message { 
+    height:70vh;
+}
+
+
+#eindejaarsfolder{
+	width:65vw;
+    height:70vh;
+    padding-bottom:5vh;
+	
+}
